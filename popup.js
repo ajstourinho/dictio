@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           `;
   
         } else {
-          wordElement.textContent = 'Select a single word in the webpage.';
+          wordElement.textContent = 'Select a single word on the webpage.';
           dStyle.innerHTML = `
             h2 {font-size: 16px;}
           `;
