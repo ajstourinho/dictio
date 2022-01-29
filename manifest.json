@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Dictio",
+  "description": "Show the definition of selected word",
+  "version": "1.0",
+  "icons": {
+    "16": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key":
+        {
+          "default": "Ctrl+Shift+E"
+        }
+    }
+  }
+}
