@@ -1,5 +1,5 @@
 # Dictio
-Dictio is a chrome extension that shows the definition of a selected word on the webpage.
+Dictio is a chrome extension that shows the definition of selected words on the webpage.
 
 ### Steps
 * First, you must have the extension installed on your chrome browser. For this, go to the URL chrome://extensions/, toggle on the developer mode, click on Load Unpacked and select the whole dictio folder.
